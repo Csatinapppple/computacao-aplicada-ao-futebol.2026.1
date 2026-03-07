@@ -1,0 +1,11 @@
+Jogador:
+	id;
+	nome: String
+	posição: String
+	equipe: Equipe
+
+Equipe:
+	id;
+	nome: String
+	divisão: String
+	jogadores: Array<Jogador>
